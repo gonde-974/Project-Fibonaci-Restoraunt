@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Fibonaci Restorant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/template.css" rel="stylesheet" media="screen">
+  <link href="assets/css/fa.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/gfonts.min.css" rel="stylesheet" media="screen">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+    .d-none {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="py-1 bg-black top">
+    <div class="container-icon">
+      <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+        <div class="col-lg-12 d-block">
+          <div class="row d-flex">
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon  mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+              </div>
+              <i class="bi bi-telephone" style="font-size: 24px; color: #c8a97e; margin-right: 10px;"></i>
+              <span class="text register-link">+ 1235 2355 98</span>
+            </div>
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center icon-email"><span
+                  class="icon-paper-plane"></span></div>
+              <i class="bi bi-envelope" style="font-size: 24px; color:#c8a97e; margin-right: 10px;"></i>
+              <span class="text register-link  ">youremail@email.com</span>
+            </div>
+            <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+              <p class="mb-0 register-link"><span class="register-link">Open hours:</span> <span>Monday - Sunday</span>
+                <span>8:00AM - 9:00PM</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+
+  <nav class="custom-navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Fibonaci</a>
+      <div class="navbar-toggler" id="navbar-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="./index.html" class="nav-link">Home</a></li>
+        <li><a href="./about.html" class="nav-link">About</a></li>
+        <li><a href="./menu.html" class="nav-link">Menu</a></li>
+        <li><a href="./blog.html" class="nav-link">Stories</a></li>
+        <li><a href="./contact.html" class="nav-link">Contact</a></li>
+        <li><a href="./reservation.html" class="cta nav-link">Book a table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- END nav -->
+
+
+  <!-- START HERO -->
+
+  <section class="home-slider owl-carousel section-hight container-slider1">
+    <div class="slider-item"
+      style="background-image: url('https://preview.colorlib.com/theme/feliciano/images/bg_3.jpg');">
+
+
+
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate text-center mb-4 fadeInUp ftco-animated">
+            <h1 class="mb-5 bread " style="color:white;margin-top:-300px">SPECIALITES</h1>
+            <span class="mr-2 links-into"><a href="./index.html">Home <i
+                  class="fa-solid fa-arrow-right"></i></i></a></span> <span class="mr-2 links-into"><a
+                href="./menu.html">Menu <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- END HERO -->
+
+
+  <!-- MENU -->
+
+  <div class="container">
+    <div class="ftco-search">
+      <div class="row">
+        <div class="col-md-12 nav-link-wrap">
+          <div class="nav nav-pills d-flex justify-content-center text-center" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <a class="nav-link modern-tab ftco-animate fadeInUp" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
+              role="tab" aria-controls="v-pills-1" aria-selected="false">Breakfast</a>
+            <a class="nav-link modern-tab ftco-animate fadeInUp" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2"
+              role="tab" aria-controls="v-pills-2" aria-selected="false">Lunch</a>
+            <a class="nav-link modern-tab ftco-animate fadeInUp" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3"
+              role="tab" aria-controls="v-pills-3" aria-selected="false">Dinner</a>
+            <a class="nav-link modern-tab ftco-animate fadeInUp" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4"
+              role="tab" aria-controls="v-pills-4" aria-selected="false">Drinks</a>
+            <a class="nav-link modern-tab ftco-animate fadeInUp" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5"
+              role="tab" aria-controls="v-pills-5" aria-selected="false">Desserts</a>
+            <a class="nav-link modern-tab ftco-animate fadeInUp active" id="v-pills-6-tab" data-toggle="pill"
+              href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="true">Wine</a>
+          </div>
+        </div>
+        <div class="col-md-12 tab-wrap">
+        
+          <div class="tab-content" id="v-pills-tabContent">
+           <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://media.istockphoto.com/id/1452023184/photo/traditional-turkish-pastry-with-spinach-handmade-pastry-with-spinach-filling.webp?a=1&b=1&s=612x612&w=0&k=20&c=hiWz5nTjAFQcWMYpQIoT3CwufrinFqZiAy9Hx9GPlas=);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price" style="margin-left:200px">$29</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Burek so meso</h3>
+                          </div>
+                          
+                        </div>
+                        <p><span>Brasno</span>, <span>Meso</span>, <span>Jogurt</span>, <span>Sirenje</span></p>
+                        <p><a href="#" id="breakfast-1" class="btn btn-primary btnOrder">Order now</a></p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(./images/breackfast_4.jpg)">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Kajgana</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Jajca</span>, <span>Maslo</span>, <span>Sol</span>, <span>Sirenje</span></p>
+                        <p><a href="#" id="breakfast-2" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-3.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:230px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Teleska Corba</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meso</span>, <span>Leb</span>, <span>Zacini</span>, <span>Sirenje</span></p>
+                        <p><a href="#" id="breakfast-3" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$1.5</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Kacamak</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Brasno</span>, <span>Voda</span>, <span>Sirenje</span>, <span>Kajmak</span></p>
+                        <p><a href="#" id="breakfast-4" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$4</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Pastrmajlija</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Testo</span>, <span>Pastrma</span>, <span>Piperka</span>, <span>Jajce</span></p>
+                        <p><a href="#" id="breakfast-5" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-6.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:230px">$8</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Zelnik</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Testo</span>, <span>Zelka</span>, <span>Sirenje</span>, <span>Spanak</span></p>
+                        <p><a href="#" id="breakfast-6" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-7.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$5</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Mantii</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Testo</span>, <span>Meso</span>, <span>Jogurt</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" id="breakfast-7" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/breakfast-8.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" id="breakfast-8" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             
+            <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-1.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$25</span>
+                        </div>
+                        <div class="d-flex">      
+                          <div class="one-half">
+                            <h3>Svinsko kare</h3>
+                          </div>                   
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-2.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Govedski Biftek</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-3.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$10</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Jagneski Kotleti</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-6.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-7.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/lunch-8.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-1.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Karagorgeva Snicla</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-2.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$5</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Pileski Prsti</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-3.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$4</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Bolonjeze</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-6.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dinner-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-1.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Fruti Miks 0.2</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-2.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Koka Kola 0.2</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-3.jpg);">
+                    </div>
+
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Koktel 0.2</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/drink-6.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+                          >
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-day-5-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-1.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Trilece</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-2.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$20</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Dubai Coklado</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-3.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$5</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Ekler</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with pota</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/dessert-5.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Grilled Beef with potatoes</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade active show" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-day-6-tab">
+              <div class="row no-gutters d-flex align-items-stretch">
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-1.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$18</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Tga za jug 0.7l</h3>
+                          </div>
+                        </div>
+                        <p><span>Crno</span>, <span>Makedonsko</span>, <span>Suvo</span>, <span>Vino</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-2.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$10</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Aleksandrija 0.7</h3>
+                          </div>
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-3.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Smederevka 1l Tikves</h3>
+                          </div>
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-4.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$6</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Roze 1l tikves</h3>
+                          </div>
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-7.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Traminec 0.7</h3>
+                          </div>
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-8.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$5</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Vitac 1l</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-7.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Sardone 0.7 Tikves</h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-self-stretch">
+                  <div class="menus d-sm-flex ftco-animate align-items-stretch fadeInUp ftco-animated">
+                    <div class="menu-imgs img order-md-last"
+                      style="background-image: url(https://preview.colorlib.com/theme/feliciano/images/wine-8.jpg);">
+                    </div>
+                    <div class="text d-flex align-items-center">
+                      <div>
+                        <div class="one-forth">
+                          <span class="price " style="margin-left:200px">$15</span>
+                        </div>
+                        <div class="d-flex">
+                          <div class="one-half">
+                            <h3>Makedonsko belo 1l </h3>
+                          </div>
+
+                        </div>
+                        <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+                        <p><a href="#" class="btn btn-primary btnOrder">Order now</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- END MENU -->
+
+  <!-- FOOTER -->
+  <section style="margin-top:120px" class="footer-section">
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Fibonaci</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3 d-flex">
+                <li class="ftco-animate"><a href="#" class="btn btn-outline-info mx-1"><i
+                      class="fab fa-twitter"></i></a></li>
+                <li class="ftco-animate"><a href="#" class="btn btn-outline-primary mx-1"><i
+                      class="fab fa-facebook-f"></i></a></li>
+                <li class="ftco-animate"> <a href="#" class="btn btn-outline-danger mx-1"><i
+                      class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Open Hours</h2>
+              <ul class="list-unstyled open-hours">
+                <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+                <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+                <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+                <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+                <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+                <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+                <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Instagram</h2>
+              <div class="thumb d-sm-flex">
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url('https://images.unsplash.com/photo-1724254042167-4e6a1fb4a191?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdG9yYW50fGVufDB8fDB8fHww');">
+                </a>
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url('https://media.istockphoto.com/id/2149219718/photo/3d-render-of-cafe-restaurant-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=7s7SMQ4OqEX8QaXMqzd1Fus-hjcTa-dqmUggLP5GSZA=');">
+                </a>
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url('https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=PDAOJZowRgcFpLORXCV5p9Yt4wuOlxpYkxOUk5M4koo=');">
+                </a>
+              </div>
+              <div class="thumb d-flex mt-4">
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url(https://images.unsplash.com/photo-1657110920685-a81e7a7616c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RvcmFudHxlbnwwfHwwfHx8MA%3D%3D);">
+                </a>
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url(https://plus.unsplash.com/premium_photo-1661375289238-1f30689cc33b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RvcmFudHxlbnwwfHwwfHx8MA%3D%3D);">
+                </a>
+                <a href="#" class="thumb-menu img"
+                  style="background-image: url(https://images.unsplash.com/photo-1674499978132-373a23ac17b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlc3RvcmFudHxlbnwwfHwwfHx8MA%3D%3D);">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries.</p>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <input type="text" class="form-control mb-2 text-center" value="Enter your email"
+                    placeholder="Enter email address">
+                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>Created by Goran Mitoski </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- END FOOTER -->
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Popper.js (за Bootstrap 4) -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const orderButtons = document.querySelectorAll('.btnOrder');
+      const orderTable = document.querySelector('#orderTable');
+      const orderTableBody = document.querySelector('#orderTable tbody');
+      const totalPriceElement = document.querySelector('#totalPrice');
+      const sendOrderButton = document.querySelector('#sendOrder');
+
+      const orders = []; // Листа за складирање на нарачките
+      let totalSum = 0;  // Вкупна сума
+
+      // Секој "Order Now" копче
+      orderButtons.forEach(button => {
+        button.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          const menuItem = this.closest('.menus');
+          const productName = menuItem.querySelector('h3').innerText;
+          const productPrice = parseFloat(menuItem.querySelector('.price').innerText.replace('$', ''));
+
+          // Покажи ја табелата ако е скриена
+          if (orderTable.classList.contains('d-none')) {
+            orderTable.classList.remove('d-none');
+          }
+
+          // Додај го производот во листата на нарачки
+          orders.push({ name: productName, price: productPrice });
+
+          // Ажурирај ја вкупната сума
+          totalSum += productPrice;
+
+          // Додај нов ред во табелата
+          const newRow = document.createElement('tr');
+          newRow.innerHTML = `
+                  <td>${productName}</td>
+                  <td>$${productPrice.toFixed(2)}</td>
+              `;
+          orderTableBody.insertBefore(newRow, document.querySelector('#totalRow'));
+
+          // Ажурирај ја вкупната цена
+          totalPriceElement.textContent = `$${totalSum.toFixed(2)}`;
+        });
+      });
+
+      // "Испрати нарачка" копче
+      sendOrderButton.addEventListener('click', function () {
+        // Скриј ја табелата
+        orderTable.classList.add('d-none');
+
+        // Ресетирај ја листата на нарачки и вкупната сума
+        orders.length = 0;
+        totalSum = 0;
+
+        // Отстрани ги редовите за производи
+        const productRows = Array.from(orderTableBody.querySelectorAll('tr'));
+        productRows.forEach(row => {
+          if (!row.id) {
+            row.remove();
+          }
+        });
+
+        // Ресетирај ја вкупната цена
+        totalPriceElement.textContent = `$0.00`;
+
+        alert('Нарачката е успешно испратена!');
+      });
+    });
+
+  
+  </script>
+
+
+
+  <style>
+    /* Основни стилови за табелата и копчињата */
+    #orderTable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    #orderTable th,
+    #orderTable td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    #orderTable th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .d-none {
+      display: none;
+    }
+  </style>
+
+
+</body>
+
+</html>
